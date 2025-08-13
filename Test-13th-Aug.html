@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+</head>
+<body>
+    <center>
+    <h2><img src="./Images/star2.jpg" width="30">&nbsp;John Doe's Web Portifolio</h2>
+    <i>Showcasing HTML skills using Tables</i>
+    <br>
+    <br>
+    <a href="#about">About</a>&nbsp;|
+    <a href="#skills">Skills</a>&nbsp;|
+    <a href="#Projects">Projects</a>&nbsp;|
+    <a href="#contact">Contact</a>
+    </center>
+    <hr>
+    <Table border="1" width="100%" cellspacing="0" cellpadding="5">
+        <tr><td colspan="2">
+            <table border="0" width="98%">
+                <tr>
+            <td colspan="2"><h3 id="about"><img src="./Images/personlogo.png" width="20">&nbsp;About Me</h3>
+                <p>Hello! I'm John doe, a passionate web developer. I love building semantic, accessible, and responsive websites using core web technologies.</p>
+                <p>I specialize in front-end development, especially HTML, CSS, and JavaScript.</p>  
+            <td align="right"><img src="./Images/person.jpg" width="60"></td>
+        </tr></table></tr>
+        <tr>
+            <td><h3 id="skills"><img src="./Images/brain.png" width="20">&nbsp;Skills</h3>
+            <ul type="disc">
+                <li>HTML5/CSS3</li>
+                <li>JavaScript(ES6+)</li>
+                <li>Responsive Design</li>
+                <li>Git & GitHub</li>
+            </ul>
+            <h4><img src="./Images/textedit.png" width="20">&nbsp;Skill Levels</h4>
+            <table border="1" width="200" cellpadding="5">
+                <tr align="center">
+                    <th>Skill</th>
+                    <th>Level</th>
+                </tr>
+                <tr><td>CSS</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr><td>JavaScript</td>
+                    <td>Intermediate</td>
+                </tr>
+            </table>
+            <td><h3 id="Projects"><img src="./Images/folder.png" width="20">&nbsp;Projects</h3>
+                <ol>
+                    <li><b>Portifolio Website-</b>My personal portifolio built using pure HTML and CSS</li>
+                    <li><b>Todo App-</b>A task management tool with vanilla JavaScript</li>
+                    <li><b>Weather App-</b>A real time weather dashboard using APIs</li>
+                </ol>
+                <h4><img src="./Images/screenshot.png" width="20">&nbsp;Screenshot</h4>
+                <img src="./Images/css.png" alt="project review" width="200">
+        </tr>
+        <tr align="center"><td colspan="2"><h3 id="contact"><img src="./Images/contactme.png" width="20">&nbsp;Contact Me</h3>
+            <fieldset><legend>Contact Form</legend>
+                <form action="./Submit.html">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name"><br><br>
+            <label for="name">Email:</label>
+            <input type="email" id="name"><br><br>
+
+            <label for="Gender">Gender:</label>
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" id="female"name="Gender" value="female">
+            <label for="female">Female</label><br><br>
+            <label for="service" name="service">Services Interested:</label>
+            <input type="checkbox" id="service" name="service">
+            <label for="service" name="service">Web Design</label><br>
+       &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;<input type="checkbox" id="service" name="service">
+            <label for="service" name="service">SEO</label><br><br>
+            <label for="country">Country:</label>
+            <select id="Country">
+                <option name="country" value="USA">USA</option>
+                <option name="country" value="India">India</option>
+            </select><br><br>
+            <label for="Message">Message:</label>
+            <textarea id="Message" cols="15" rows="3"></textarea><br><br>
+            <input type="submit" value="send">
+            <input type="reset" value="clear">
+            </form>
+           </fieldset> 
+        </td></tr>
+        <tr align="center"><td colspan="2">
+            <p><img src="./Images/footer.jpeg" width="20"><b>&nbsp;Last Updated:</b> August 13,2025</p><br>
+            <p><b><i>Creadted by John Doe</i></b></p>
+            <i><p><b>Email:</b><a href="">John@example.com</a></p></i>
+            <i><p><b>Website:</b><a href="">example.com</a></p></i><br>
+            <p>&copy; 2025 John Doe. All rights reserved.</p>
+        </td></tr>
+    </Table>
+</body>
+</html>
